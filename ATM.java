@@ -2,13 +2,13 @@ package automatedtellermachine;
 
 public class ATM {
 
-    private boolean userAuthenticated; // whether user is authenticated
-    private int currentAccountNumber; // current user's account number
-    private Screen screen; // ATM's screen
-    private Keypad keypad; // ATM's keypad
-    private CashDispenser cashDispenser; // ATM's cash dispenser
-    private DepositSlot depositSlot; // ATM's deposit slot
-    private BankDatabase bankDatabase; // account information database
+    private boolean userAuthenticated; 
+    private int currentAccountNumber; 
+    private Screen screen; 
+    private Keypad keypad; 
+    private CashDispenser cashDispenser; 
+    private DepositSlot depositSlot; 
+    private BankDatabase bankDatabase; 
 
     private static final int BALANCE_INQUIRY = 1;
     private static final int WITHDRAWAL = 2;
